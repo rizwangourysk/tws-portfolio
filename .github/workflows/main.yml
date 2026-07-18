@@ -20,4 +20,4 @@ jobs:
         aws-region: ap-south-2
 
     - name: Deploy static site to S3 bucket
-      run: aws s3 sync . s3://tws-junoon786 --delete
+      run: aws s3 sync . s3://rizwangourysk786 --delete
